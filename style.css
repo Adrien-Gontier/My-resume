@@ -1,0 +1,21 @@
+/* Website background */
+body {
+    background-color: lightblue;
+}
+
+/* Title of the website */
+h1 {
+    text-align : center;
+    Color : black;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size : 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: center;
+    Color : black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
