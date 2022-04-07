@@ -6,15 +6,10 @@ body {
 
 /* Head of the resume */
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 div {
     margin-left: 40px;
     margin-right: 40px;
+
 }
 
 .my_name {
@@ -27,3 +22,20 @@ div {
     font-size: 40px;
 }
 
+
+@media all and (min-width: 901px)
+{
+    .head_of_resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row-reverse;
+    }
+    
+    div {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 250px;
+    }  
+    
+}
