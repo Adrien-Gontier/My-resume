@@ -1,0 +1,27 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.langage {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.flag_fr, .flag_uk {
+    inline-size: 60%;
+}
+
+.flag_uk {
+    margin-top: 45px;
+}
+
+.flag_fr {
+    margin-top: 30px;
+}
