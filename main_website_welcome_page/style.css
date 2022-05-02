@@ -32,8 +32,12 @@ p {
         margin-bottom: 30px;
     }
 
+    .around_flag_uk, .around_flag_fr {
+        width: 150px;
+    }
+
     .flag_fr, .flag_uk {
-        inline-size: 50%;
+        width: inherit;
     }
 }
 
@@ -53,7 +57,11 @@ p {
         margin-bottom: 45px;
     }
 
+    .around_flag_uk, .around_flag_fr {
+        width: 250px;
+    }
+
     .flag_fr, .flag_uk {
-        inline-size: 60%;
+        width: inherit;
     }
 }
