@@ -6,22 +6,54 @@ p {
 }
 
 .langage {
-    display: flex;
-    justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-top: 75px;
 }
 
-.flag_fr, .flag_uk {
-    inline-size: 60%;
+.french, .english {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.flag_uk {
-    margin-top: 45px;
+@media all and (max-width: 900px)   /* For all media with a minimum of 901px width */
+{
+    .langage {
+        margin-top: 40px;
+    }
+
+    .choice_fr {
+        margin-bottom: 30px;
+    }
+
+    .choice_eng {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .flag_fr, .flag_uk {
+        inline-size: 50%;
+    }
 }
 
-.flag_fr {
-    margin-top: 30px;
+@media all and (min-width: 901px)    /* For all media with a maximum of 900px width */
+{
+    .langage {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 75px;
+    }
+
+    .choice_fr {
+        margin-bottom: 30px;
+    }
+
+    .choice_eng {
+        margin-bottom: 45px;
+    }
+
+    .flag_fr, .flag_uk {
+        inline-size: 60%;
+    }
 }
