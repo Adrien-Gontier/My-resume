@@ -1,5 +1,13 @@
 /* STYLE FOR HTML FILES IN DIRECTORY "hard_skills_page" */
 
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+
 
 .stacks_pictures {
     display: flex;    
