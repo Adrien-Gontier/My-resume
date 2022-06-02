@@ -28,7 +28,7 @@ p{
     background-color: crimson;  /* !!!! WILL BE REMOVED, ONLY HERE TO DEBUG !!!! */
 }
 
-.stacks_pictures_size_10_100 {
+.stacks_pictures_size {
     width: inherit;
 
     background-color: gold;  /* !!!! WILL BE REMOVED, ONLY HERE TO DEBUG !!!! */
