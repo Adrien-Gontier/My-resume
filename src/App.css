@@ -1,4 +1,10 @@
 /* TODO Import here */
-@import url(./style/home.css);
-@import url(./style/title.css);
-@import url(./style/navBar.css);
+@import url(./assets/style/home.css);
+@import url(./assets/style/title.css);
+@import url(./assets/style/navBar.css);
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
