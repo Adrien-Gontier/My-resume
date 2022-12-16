@@ -8,11 +8,13 @@ import Trainning from './routes/Trainning'
 import HardSkills from './routes/HardSkills'
 import SoftSkills from './routes/SoftSkills'
 import Hobbies from './routes/Hobbies'
+import Title from './component/Title'
 
 export default function App() {
 
   return (
     <BrowserRouter>
+    <Title />
     <NavBar />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
