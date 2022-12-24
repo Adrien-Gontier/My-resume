@@ -1,9 +1,10 @@
 [
     {
-    "nameOfPosition": "",
-    "monthAndYearBeginning": "",
-    "monthAndYearEnd": "",
-    "nameOfCompanny": "",
-    "whatIDo": "" 
+        "id": "",
+        "nameOfPosition": "",
+        "monthAndYearBeginning": "",
+        "monthAndYearEnd": "",
+        "nameOfCompanny": "",
+        "whatIDo": ""
     }
 ]
