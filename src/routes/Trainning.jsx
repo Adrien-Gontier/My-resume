@@ -1,5 +1,5 @@
 import React from 'react'
-import OneTrainning from './OneTrainning'
+import OneTrainning from '../components/OneTrainning'
 
 export default function Trainning() {
   return (
