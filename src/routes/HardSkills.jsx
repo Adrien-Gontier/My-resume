@@ -1,5 +1,5 @@
 import React from 'react'
-import OneHardSkill from './OneHardSkill'
+import OneHardSkill from '../components/OneHardSkill'
 
 export default function HardSkills() {
   return (
