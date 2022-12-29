@@ -7,27 +7,32 @@
     {
         "id": 1,
         "nameOfStack": "Git",
-        "picture": ""
+        "picture": "src/assets/pictures/Git-logo.png"
     },
     {
         "id": 2,
         "nameOfStack": "HTML5",
-        "picture": ""
+        "picture": "src/assets/pictures/HTML5-logo.png"
     },
     {
         "id": 3,
         "nameOfStack": "CSS3",
-        "picture": ""
+        "picture": "src/assets/pictures/CSS3-logo.png"
     },
     {
         "id": 4,
         "nameOfStack": "Sass",
-        "picture": ""
+        "picture": "src/assets/pictures/Sass-logo.png"
     },
     {
         "id": 5,
         "nameOfStack": "JavaScript",
         "picture": ""
+    },
+    {
+        "id": 6,
+        "nameOfStack": "MySQL",
+        "picture": "src/assets/pictures/MySQL-logo.png"
     }
 
 ]
