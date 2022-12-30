@@ -6,5 +6,21 @@
         "monthAndYearEnd": "",
         "nameOfCompanny": "",
         "whatIDo": ""
+    },
+    {
+        "id": "1",
+        "nameOfPosition": "Project manager H.A.C.C.P.",
+        "monthAndYearBeginning": "06/2006",
+        "monthAndYearEnd": "08/2006",
+        "nameOfCompanny": "Pierre Milleret",
+        "whatIDo": "Implementation of HACCP up to step 6"
+    },
+    {
+        "id": "2",
+        "nameOfPosition": "Versatile fast food worker",
+        "monthAndYearBeginning": "05/20010",
+        "monthAndYearEnd": "07/2011",
+        "nameOfCompanny": "Jack's express",
+        "whatIDo": ""
     }
 ]
