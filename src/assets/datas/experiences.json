@@ -21,6 +21,14 @@
         "monthAndYearBeginning": "05/20010",
         "monthAndYearEnd": "07/2011",
         "nameOfCompanny": "Jack's express",
-        "whatIDo": ""
+        "whatIDo": "Customer service and collection"
+    },
+    {
+        "id": 3,
+        "nameOfPosition": "Project manager for animal welfare",
+        "monthAndYearBeginning": "04/2012",
+        "monthAndYearEnd": "08/2012",
+        "nameOfCompanny": "EURALIS Gastronomie",
+        "whatIDo": "Built a control grid as well as a photo repository"
     }
 ]
