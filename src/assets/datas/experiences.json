@@ -30,5 +30,13 @@
         "monthAndYearEnd": "08/2012",
         "nameOfCompanny": "EURALIS Gastronomie",
         "whatIDo": "Built a control grid as well as a photo repository"
+    },
+    {
+        "id": 4,
+        "nameOfPosition": "Hygiene line animator",
+        "monthAndYearBeginning": "11/2012",
+        "monthAndYearEnd": "12/2012",
+        "nameOfCompanny": "EURALIS Gastronomie",
+        "whatIDo": "Cleaning of the production lines, but also the cleanliness of the equipment of the operators on the lines"
     }
 ]
