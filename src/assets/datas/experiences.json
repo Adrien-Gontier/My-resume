@@ -38,5 +38,13 @@
         "monthAndYearEnd": "12/2012",
         "nameOfCompanny": "EURALIS Gastronomie",
         "whatIDo": "Cleaning of the production lines, but also the cleanliness of the equipment of the operators on the lines"
+    },
+    {
+        "id": 5,
+        "nameOfPosition": "Product line animator",
+        "monthAndYearBeginning": "10/2013",
+        "monthAndYearEnd": "12/2013",
+        "nameOfCompanny": "EURALIS Gastronomie",
+        "whatIDo": "Metrological control of products"
     }
 ]
