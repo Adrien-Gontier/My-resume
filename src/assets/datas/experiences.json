@@ -46,5 +46,13 @@
         "monthAndYearEnd": "12/2013",
         "nameOfCompanny": "EURALIS Gastronomie",
         "whatIDo": "Metrological control of products"
+    },
+    {
+        "id": 6,
+        "nameOfPosition": "Ground test support",
+        "monthAndYearBeginning": "02/2016",
+        "monthAndYearEnd": "06/2018",
+        "nameOfCompanny": "Athos aéronautique",
+        "whatIDo": "Electrical test"
     }
 ]
