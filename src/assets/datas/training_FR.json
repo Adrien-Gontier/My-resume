@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "",
+        "grantedYear": "",
+        "Speciality": ""
+    },
+    {
+        "id": 1,
+        "name": "Baccalaureate",
+        "grantedYear": "2005",
+        "Speciality": "Biology-ecology"
+    }
+]
