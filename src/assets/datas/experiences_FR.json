@@ -17,11 +17,11 @@
     },
     {
         "id": 2,
-        "nameOfPosition": "Versatile fast food worker",
-        "monthAndYearBeginning": "05/20010",
+        "nameOfPosition": "Employé polyvalent de restauration rapide",
+        "monthAndYearBeginning": "05/2010",
         "monthAndYearEnd": "07/2011",
         "nameOfCompanny": "Jack's express",
-        "whatIDo": "Customer service and collection"
+        "whatIDo": "Service et encaissement des clients"
     },
     {
         "id": 3,
