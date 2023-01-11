@@ -49,10 +49,10 @@
     },
     {
         "id": 6,
-        "nameOfPosition": "Ground test support",
+        "nameOfPosition": "Support essau sol",
         "monthAndYearBeginning": "02/2016",
         "monthAndYearEnd": "06/2018",
         "nameOfCompanny": "Athos aéronautique",
-        "whatIDo": "Electrical test"
+        "whatIDo": "Test électrique"
     }
 ]
