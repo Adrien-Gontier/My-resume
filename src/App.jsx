@@ -10,13 +10,17 @@ import SoftSkills from './routes/SoftSkills'
 import Hobbies from './routes/Hobbies'
 import Title from './components/Title'
 import Languages from './routes/Languages'
+import LanguageContext from './context/LanguageContext'
 
 export default function App() {
 
+  const [language, setLanguage] = useState(english)
+
   return (
     <BrowserRouter>
-    <Title />
-    <NavBar />
+      <LanguageContext.Provider value={{ language, setLanguage }}>
+        <Title />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
@@ -27,6 +31,7 @@ export default function App() {
           <Route path="/languages" element={<Languages />} />
           <Route path="/hobbies" element={<Hobbies />} />
         </Routes>
+      </LanguageContext.Provider>
     </BrowserRouter>
   )
 }
