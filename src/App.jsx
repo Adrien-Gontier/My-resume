@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/NavBar'
@@ -14,7 +14,7 @@ import LanguageContext from './context/LanguageContext'
 
 export default function App() {
 
-  const [language, setLanguage] = useState(english)
+  const [language, setLanguage] = useState("english")
 
   return (
     <BrowserRouter>
