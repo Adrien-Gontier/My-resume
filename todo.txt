@@ -1,3 +1,5 @@
  - create context for the language french / english
  - do not create className too long
  - set Sass for style
+
+sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
