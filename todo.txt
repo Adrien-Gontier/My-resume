@@ -1,5 +1,6 @@
  - create context for the language french / english
  - do not create className too long
  - set Sass for style, with npm install sass when the website is finish
+ - set a docker-compose file to target a sql file
 
 sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
