@@ -2,7 +2,7 @@
  - do not create className too long
  - set Sass for style, with npm install sass when the website is finish
  - set a docker-compose file to target a sql file
- - Install Prettier and ESLint
+ - Install Prettier and ESLint (with config file from another project)
 - Improving the API call for each page of the website
 
 sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
