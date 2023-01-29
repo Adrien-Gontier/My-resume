@@ -3,6 +3,7 @@
  - set Sass for style, with npm install sass when the website is finish
  - set a docker-compose file to target a sql file
  - Install Prettier and ESLint (with config file from another project)
-- Improving the API call for each page of the website
+ - Improving the API call for each page of the website
+ - Look for improve my code
 
 sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
