@@ -5,6 +5,6 @@
  - Install Prettier and ESLint (with config file from another project)
  - Improving the API call for each page of the website
  - Look for improve my code
- - Create an API in Python
+ - Create an API in C++
 
 sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
