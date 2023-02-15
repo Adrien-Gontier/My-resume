@@ -8,4 +8,4 @@
  - Create an API in C++
  - Think about fonts files import
 
-sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
+ Command line sass : sass --watch ./src/assets/sass/main.scss:./src/App.css --style compressed
