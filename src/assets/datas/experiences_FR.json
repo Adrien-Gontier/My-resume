@@ -1,13 +1,5 @@
 [
     {
-        "id": 0,
-        "nameOfPosition": "",
-        "monthAndYearBeginning": "",
-        "monthAndYearEnd": "",
-        "nameOfCompanny": "",
-        "whatIDo": ""
-    },
-    {
         "id": 1,
         "nameOfPosition": "Chargé de mission H.A.C.C.P.",
         "monthAndYearBeginning": "06/2006",
