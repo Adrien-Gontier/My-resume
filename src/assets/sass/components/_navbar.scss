@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 1.5rem;
+    a {
+        font-family: $font-variable-Montserrat-Regular;
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.5rem 1rem;
+        padding: 0 0.5rem;
+        border-right: 0.1rem solid black;
+        border-left: 0.1rem solid black;
+        border-radius: 0.5rem;
+        transition-duration: 1.5s;
+    }
+    a:hover {
+        background-color: rgba(113, 185, 249, 0.157);
+        transition-duration: 1.5s;
+    }
+}
