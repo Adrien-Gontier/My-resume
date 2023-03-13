@@ -1,10 +1,5 @@
 [
     {
-        "id": "",
-        "nameOfStack": "",
-        "picture": ""
-    },
-    {
         "id": 1,
         "nameOfStack": "Git",
         "picture": "src/assets/pictures/Git-logo.png"
@@ -34,5 +29,4 @@
         "nameOfStack": "MySQL",
         "picture": "src/assets/pictures/MySQL-logo.png"
     }
-
 ]
