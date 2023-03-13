@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(./base/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(./base/Montserrat-Regular.ttf);
+}
+.app-title {
+    font-size: 50px;
+}
+.application-title {
+    font-size: 5rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    text-align: center;
+    color: #000;
+    margin: 1rem 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 1.5rem;
+}
+.navbar a {
+    font-family: 'Montserrat-Regular', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 1rem;
+    padding: 0 0.5rem;
+    border-right: 0.1rem solid #000;
+    border-left: 0.1rem solid #000;
+    border-radius: 0.5rem;
+    transition-duration: 1.5s;
+}
+.navbar a:hover {
+    background-color: rgba(113, 185, 249, 0.157);
+    transition-duration: 1.5s;
+} /*# sourceMappingURL=App.css.map */
