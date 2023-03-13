@@ -1,1 +1,17 @@
-@import "./pages/app-home-page";
+/* BASE */
+
+@import './base/body';
+@import './base/font';
+
+/* UTILS */
+
+@import './utils/font-variable';
+
+/* PAGES */
+
+@import './pages/app-home-page';
+
+/* COMPONENTS */
+
+@import './components/title';
+@import './components/navbar';
