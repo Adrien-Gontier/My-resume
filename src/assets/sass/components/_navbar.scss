@@ -13,11 +13,11 @@
         padding: 0 0.5rem;
         border-right: 0.1rem solid black;
         border-left: 0.1rem solid black;
-        border-radius: 0.5rem;
         transition-duration: 1.5s;
     }
     a:hover {
         background-color: rgba(113, 185, 249, 0.157);
         transition-duration: 1.5s;
+        border-radius: 0.5rem;
     }
 }
