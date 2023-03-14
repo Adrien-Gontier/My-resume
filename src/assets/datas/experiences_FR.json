@@ -4,7 +4,7 @@
         "nameOfPosition": "Chargé de mission H.A.C.C.P.",
         "monthAndYearBeginning": "06/2006",
         "monthAndYearEnd": "08/2006",
-        "nameOfCompanny": "Pierre Milleret",
+        "nameOfCompany": "Pierre Milleret",
         "whatIDo": "Réalisation de l'H.A.C.C.P. jusqu'à l'étape 6"
     },
     {
@@ -12,7 +12,7 @@
         "nameOfPosition": "Employé polyvalent de restauration rapide",
         "monthAndYearBeginning": "05/2010",
         "monthAndYearEnd": "07/2011",
-        "nameOfCompanny": "Jack's express",
+        "nameOfCompany": "Jack's express",
         "whatIDo": "Service et encaissement des clients"
     },
     {
@@ -20,7 +20,7 @@
         "nameOfPosition": "Project manager for animal welfare",
         "monthAndYearBeginning": "04/2012",
         "monthAndYearEnd": "08/2012",
-        "nameOfCompanny": "EURALIS Gastronomie",
+        "nameOfCompany": "EURALIS Gastronomie",
         "whatIDo": "Built a control grid as well as a photo repository"
     },
     {
@@ -28,7 +28,7 @@
         "nameOfPosition": "Animateur de ligne hygiène",
         "monthAndYearBeginning": "11/2012",
         "monthAndYearEnd": "12/2012",
-        "nameOfCompanny": "EURALIS Gastronomie",
+        "nameOfCompany": "EURALIS Gastronomie",
         "whatIDo": "Nettoyage des lignes de prodcution, mais aussi des équipement de production des opérateur sur lignes"
     },
     {
@@ -36,7 +36,7 @@
         "nameOfPosition": "Animateur de ligne de proction",
         "monthAndYearBeginning": "10/2013",
         "monthAndYearEnd": "12/2013",
-        "nameOfCompanny": "EURALIS Gastronomie",
+        "nameOfCompany": "EURALIS Gastronomie",
         "whatIDo": "Contrôle métrologique des produits"
     },
     {
@@ -44,7 +44,7 @@
         "nameOfPosition": "Support essau sol",
         "monthAndYearBeginning": "02/2016",
         "monthAndYearEnd": "06/2018",
-        "nameOfCompanny": "Athos aéronautique",
+        "nameOfCompany": "Athos aéronautique",
         "whatIDo": "Test électrique"
     }
 ]
