@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function EachExperience({ props }) {
     const nameOfPosition = <h3>{props.nameOfPosition}</h3>
@@ -8,7 +9,7 @@ export default function EachExperience({ props }) {
     const whatIDo = <p>{props.whatIDo}</p>
 
     return (
-        <div className="eachExperience">
+        <Link className="eachExperience">
             <div>
                 {nameOfPosition}
                 {nameOfCompany}
@@ -18,6 +19,6 @@ export default function EachExperience({ props }) {
                 {monthAndYearBeginning}
                 {monthAndYearEnd}
             </div>
-        </div>
+        </Link>
     )
 }
