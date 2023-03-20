@@ -3,12 +3,12 @@
         "id": 1,
         "name": "Baccalaureate",
         "grantedYear": "2005",
-        "Speciality": "Biology-ecology"
+        "speciality": "Biology-ecology"
     },
     {
         "id": 2,
         "name": "Higher technician certificate",
         "grantedYear": "2007",
-        "Speciality": "food industry"
+        "speciality": "food industry"
     }
 ]
