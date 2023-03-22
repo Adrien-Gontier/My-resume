@@ -10,5 +10,11 @@
         "name": "Higher technician certificate",
         "grantedYear": "2007",
         "speciality": "food industry"
+    },
+    {
+        "id": 3,
+        "name": "Professional license",
+        "grantedYear": "2012",
+        "speciality": "Quality, security, environment"
     }
 ]
