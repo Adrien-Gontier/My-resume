@@ -16,5 +16,11 @@
         "name": "Professional license",
         "grantedYear": "2012",
         "speciality": "Quality, security, environment"
+    },
+    {
+        "id": 4,
+        "name": "Quality inspector",
+        "grantedYear": "2016",
+        "speciality": "Aeronautical"
     }
 ]
