@@ -11,6 +11,7 @@ import Hobbies from './routes/Hobbies'
 import Title from './components/Title'
 import Languages from './routes/Languages'
 import LanguageContext from './context/LanguageContext'
+import OneExperience from './routes/OneExperience'
 
 export default function App() {
     const [language, setLanguage] = useState('english')
@@ -24,6 +25,10 @@ export default function App() {
                     <Route path="/" element={<Navigate to="/home" />} />
                     <Route path="/home" element={<Home />} />
                     <Route path="/experiences" element={<Experiences />} />
+                    <Route
+                        path="/oneexperience/:id"
+                        element={<OneExperience />}
+                    />
                     <Route path="/training" element={<Training />} />
                     <Route path="/hardskills" element={<HardSkills />} />
                     <Route path="/softskills" element={<SoftSkills />} />
