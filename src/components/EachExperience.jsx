@@ -9,7 +9,7 @@ export default function EachExperience({ props }) {
     const whatIDo = <p>{props.whatIDo}</p>
 
     return (
-        <Link className="eachExperience">
+        <Link to={`/oneexperience/${props.id}`} className="eachExperience">
             <div>
                 {nameOfPosition}
                 {nameOfCompany}
