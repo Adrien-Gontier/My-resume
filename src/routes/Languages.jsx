@@ -1,5 +1,10 @@
 import React from 'react'
+import PageTitle from '../components/PageTitle'
 
 export default function Languages() {
-    return <div>Hello world Languages !</div>
+    return (
+        <div>
+            <PageTitle props="Languages" />
+        </div>
+    )
 }
