@@ -1,5 +1,10 @@
 import React from 'react'
+import PageTitle from '../components/PageTitle'
 
 export default function SoftSkills() {
-    return <div>Hello world SoftSkills !</div>
+    return (
+        <div>
+            <PageTitle props="Soft Skills" />
+        </div>
+    )
 }
