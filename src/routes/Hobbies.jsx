@@ -1,5 +1,10 @@
 import React from 'react'
+import PageTitle from '../components/PageTitle'
 
 export default function Hobbies() {
-    return <div>Hello world Hobbies !</div>
+    return (
+        <div>
+            <PageTitle props="Hobbies" />
+        </div>
+    )
 }
