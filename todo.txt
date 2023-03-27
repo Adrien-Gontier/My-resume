@@ -11,3 +11,6 @@
  Command line sass : sass --watch ./src/assets/sass/main.scss:./src/assets/sass/App.css --style compressed
 
 Command line Prettier : npx prettier --write .
+
+
+Think to run ESLint then Sass to format App.css.map
