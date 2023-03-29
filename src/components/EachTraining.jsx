@@ -6,7 +6,7 @@ export default function EachTraining({ props }) {
     const grantedYear = <p>{props.grantedYear}</p>
     const speciality = <p>{props.speciality}</p>
     return (
-        <Link className="eachTraining">
+        <Link to={`/onetraining/${props.id}`} className="eachTraining">
             <div>
                 {name}
                 {speciality}
