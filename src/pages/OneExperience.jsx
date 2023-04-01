@@ -1,24 +1,47 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PageTitle from '../components/PageTitle'
-import OneDataExperience from '../assets/datas/experiences_ENG.json'
+import AllDataExperience from '../assets/datas/experiences_ENG.json'
 import { useParams } from 'react-router-dom'
 
 export default function OneExperience() {
     const { id } = useParams()
-    const experienceData = OneDataExperience
-    const oneExperienceData = experienceData.find(
-        (element) => (element.id = id)
-    )
+    const [theExperienceData, setTheExperienceData] = useState([])
+
+    useEffect(() => {
+        for (let i = 0; i < AllDataExperience.length; i++) {
+            if (AllDataExperience[i].id == parseInt(id)) {
+                setTheExperienceData(AllDataExperience[i])
+            }
+        }
+    }, [])
+    const nameOfPosition =
+        theExperienceData != [] ? (
+            <h3>{theExperienceData.nameOfPosition}</h3>
+        ) : null
+    const nameOfCompany =
+        theExperienceData != [] ? (
+            <p>{theExperienceData.nameOfCompany}</p>
+        ) : null
+    const monthAndYearBeginning =
+        theExperienceData != [] ? (
+            <p>{theExperienceData.monthAndYearBeginning}</p>
+        ) : null
+    const monthAndYearEnd =
+        theExperienceData != [] ? (
+            <p>{theExperienceData.monthAndYearEnd}</p>
+        ) : null
+    const whatIDo =
+        theExperienceData != [] ? <p>{theExperienceData.whatIDo}</p> : null
 
     return (
         <>
             <PageTitle props="One Experience" />
             <div className="oneExperience">
-                <h3>{oneExperienceData.nameOfPosition}</h3>
-                <p>{oneExperienceData.monthAndYearBeginning}</p>
-                <p>{oneExperienceData.monthAndYearEnd}</p>
-                <p>{oneExperienceData.nameOfCompany}</p>
-                <p>{oneExperienceData.whatIDo}</p>
+                {nameOfPosition}
+                {monthAndYearBeginning}
+                {monthAndYearEnd}
+                {nameOfCompany}
+                {whatIDo}
             </div>
         </>
     )
