@@ -7,7 +7,7 @@ export default function OneExperience() {
     const { id } = useParams()
     const [theExperienceData, setTheExperienceData] = useState([])
 
-    useEffect(() => {
+    useEffect(() => { // fix this loop with a .find with ==
         for (let i = 0; i < AllDataExperience.length; i++) {
             if (AllDataExperience[i].id == parseInt(id)) {
                 setTheExperienceData(AllDataExperience[i])
