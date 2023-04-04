@@ -1,37 +1,32 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import PageTitle from '../components/PageTitle'
 import AllDataExperience from '../assets/datas/experiences_ENG.json'
 import { useParams } from 'react-router-dom'
 
 export default function OneExperience() {
     const { id } = useParams()
-    const [theExperienceData, setTheExperienceData] = useState([])
 
-    useEffect(() => { // fix this loop with a .find with ==
-        for (let i = 0; i < AllDataExperience.length; i++) {
-            if (AllDataExperience[i].id == parseInt(id)) {
-                setTheExperienceData(AllDataExperience[i])
-            }
-        }
-    }, [])
+    const oneExperienceData = AllDataExperience.find(
+        (element) => (element.id == id)
+    )
     const nameOfPosition =
-        theExperienceData != [] ? (
-            <h3>{theExperienceData.nameOfPosition}</h3>
+        oneExperienceData != [] ? (
+            <h3>{oneExperienceData.nameOfPosition}</h3>
         ) : null
     const nameOfCompany =
-        theExperienceData != [] ? (
-            <p>{theExperienceData.nameOfCompany}</p>
+        oneExperienceData != [] ? (
+            <p>{oneExperienceData.nameOfCompany}</p>
         ) : null
     const monthAndYearBeginning =
-        theExperienceData != [] ? (
-            <p>{theExperienceData.monthAndYearBeginning}</p>
+        oneExperienceData != [] ? (
+            <p>{oneExperienceData.monthAndYearBeginning}</p>
         ) : null
     const monthAndYearEnd =
-        theExperienceData != [] ? (
-            <p>{theExperienceData.monthAndYearEnd}</p>
+        oneExperienceData != [] ? (
+            <p>{oneExperienceData.monthAndYearEnd}</p>
         ) : null
     const whatIDo =
-        theExperienceData != [] ? <p>{theExperienceData.whatIDo}</p> : null
+        oneExperienceData != [] ? <p>{oneExperienceData.whatIDo}</p> : null
 
     return (
         <>
