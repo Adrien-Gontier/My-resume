@@ -8,6 +8,8 @@
  - Create an API in C++
  - Think about fonts files import
 
+- put a link to another project
+
  Command line sass : sass --watch ./src/assets/sass/main.scss:./src/assets/sass/App.css --style compressed
 
 Command line Prettier : npx prettier --write .
