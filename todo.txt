@@ -8,7 +8,7 @@
  - Create an API in C++
  - Think about fonts files import
 
-- put a link to another project
+- put a link to others projects
 - put a link to Linkedin
 
  Command line sass : sass --watch ./src/assets/sass/main.scss:./src/assets/sass/App.css --style compressed
