@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Baccalaureate",
+        "grantedYear": "2005",
+        "speciality": "Biology-ecology"
+    },
+    {
+        "id": 2,
+        "name": "Higher agrocultural technician certificate",
+        "grantedYear": "2007",
+        "speciality": "Food industry"
+    },
+    {
+        "id": 3,
+        "name": "Professional license",
+        "grantedYear": "2012",
+        "speciality": "Quality, security, environment"
+    },
+    {
+        "id": 4,
+        "name": "Quality inspector",
+        "grantedYear": "2016",
+        "speciality": "Aeronautical"
+    }
+]
