@@ -7,7 +7,7 @@ export default function OneExperience() {
     const { id } = useParams()
 
     const oneExperienceData = AllDataExperience.find(
-        (element) => (element.id == id)
+        (element) => element.id == id
     )
     const nameOfPosition =
         oneExperienceData != [] ? (
