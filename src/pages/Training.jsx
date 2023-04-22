@@ -1,6 +1,6 @@
 import React from 'react'
 import EachTraining from '../components/EachTraining'
-import AllTrainingData from '../assets/datas/training_ENG.json'
+import AllTrainingData from '../assets/datas/trainning_ENG.json'
 import PageTitle from '../components/PageTitle'
 
 export default function Training() {
