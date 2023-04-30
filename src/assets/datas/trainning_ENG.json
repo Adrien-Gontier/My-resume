@@ -3,24 +3,28 @@
         "id": 1,
         "name": "Baccalaureate",
         "grantedYear": "2005",
-        "speciality": "Biology-ecology"
+        "speciality": "Biology-ecology",
+        "whatILearn": ""
     },
     {
         "id": 2,
         "name": "Higher agrocultural technician certificate",
         "grantedYear": "2007",
-        "speciality": "Food industry"
+        "speciality": "Food industry",
+        "whatILearn": ""
     },
     {
         "id": 3,
         "name": "Professional license",
         "grantedYear": "2012",
-        "speciality": "Quality, security, environment"
+        "speciality": "Quality, security, environment",
+        "whatILearn": ""
     },
     {
         "id": 4,
         "name": "Quality inspector",
         "grantedYear": "2016",
-        "speciality": "Aeronautical"
+        "speciality": "Aeronautical",
+        "whatILearn": ""
     }
 ]
