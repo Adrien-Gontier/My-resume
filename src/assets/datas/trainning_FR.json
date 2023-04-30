@@ -3,24 +3,28 @@
         "id": 1,
         "name": "Baccalaureat",
         "grantedYear": "2005",
-        "Speciality": "Biologie-écologie"
+        "Speciality": "Biologie-écologie",
+        "whatILearn": ""
     },
     {
         "id": 2,
         "name": "Brevet de technicien supérieur agricole",
         "grantedYear": "2007",
-        "speciality": "Industrie argolimentaire"
+        "speciality": "Industrie argolimentaire",
+        "whatILearn": ""
     },
     {
         "id": 3,
         "name": "Licence professionnelle",
         "grantedYear": "2012",
-        "speciality": "Qualité, sécurité, environnement"
+        "speciality": "Qualité, sécurité, environnement",
+        "whatILearn": ""
     },
     {
         "id": 4,
         "name": "Inspecteur qualité",
         "grantedYear": "2016",
-        "speciality": "Aéronautique"
+        "speciality": "Aéronautique",
+        "whatILearn": ""
     }
 ]
