@@ -28,5 +28,15 @@
         "id": 6,
         "nameOfStack": "MySQL",
         "picture": "src/assets/pictures/MySQL-logo.png"
+    },
+    {
+        "id": 7,
+        "nameOfStack": "React",
+        "picture": "src/assets/pictures/React-logo.png"
+    },
+    {
+        "id": 8,
+        "nameOfStack": "React router",
+        "picture": "src/assets/pictures/React_router-logo.png"
     }
 ]
