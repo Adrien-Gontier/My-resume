@@ -11,7 +11,7 @@
 - put a link to others projects
 - put a link to Linkedin
 
- Command line sass : sass --watch ./src/assets/sass/main.scss:./src/assets/sass/App.css --style compressed
+Command line sass : sass --watch ./src/assets/sass/main.scss:./src/assets/sass/App.css --style compressed
 
 Command line Prettier : npx prettier --write .
 
